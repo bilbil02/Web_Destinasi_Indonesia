@@ -1,59 +1,61 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap");
 
-*{
-  font-family: 'Nunito', sans-serif;
-  margin:0; 
-  padding:0;
+* {
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
   text-transform: capitalize;
-  outline: none; 
-  border:none;
+  outline: none;
+  border: none;
   text-decoration: none;
-  transition: all .2s linear;
+  transition: all 0.2s linear;
 }
 
-*::selection
-{
+*::selection {
   background: #000;
   color: #fff;
 }
 
-html
-{
+html {
   font-size: 62.5%;
   overflow-x: hidden;
   scroll-padding-top: 6rem;
   scroll-behavior: smooth;
 }
 
-section
-{
+section {
   padding: 2rem 9%;
 }
 
-.judul
-{
+.judul {
   text-align: center;
-  padding: 2.5rem 0
+  padding: 2.5rem 0;
+}
+.judul {
+  color: #ffffff;
 }
 
-.judul span
-{
+.judul .subjudul {
   font-size: 34px;
   color: #000;
-  border-radius: .5rem;
-  padding: .2rem 1rem;
+  border-radius: 0.5rem;
+  padding: 0.2rem 1rem;
 }
 
-.judul span.space
-{
+.judul .subjudul.dark-mode {
+  color: #fff5da;
+}
+
+.judul span.space {
   background: none;
 }
 
-header
-{
+header {
   position: fixed;
-  top:0; left: 0; right:0;
+  top: 0;
+  left: 0;
+  right: 0;
   background: transparent;
   z-index: 1000;
   display: flex;
@@ -62,44 +64,42 @@ header
   padding: 2rem 9%;
 }
 
-header .logo
-{
+header .logo {
   font-size: 2.5rem;
   font-weight: bolder;
   color: #fff;
   text-transform: uppercase;
 }
 
-header .logo span
-{
+header .logo span {
   color: #000;
 }
 
-header .navbar a
-{
+header .navbar a {
   color: #fff;
   font-size: 2rem;
-  margin:0 .8rem;
+  margin: 0 0.8rem;
 }
 
-header .navbar a:hover
-{
+header .navbar a:hover {
   color: #063793;
 }
 
-#menu-bar
-{
+header .navbar {
+  width: 400px;
+}
+
+#menu-bar {
   color: #fff;
-  border: .1rem solid #fff;
-  border-radius: .5rem;
+  border: 0.1rem solid #fff;
+  border-radius: 0.5rem;
   font-size: 3rem;
-  padding: .5rem 1.2rem;
+  padding: 0.5rem 1.2rem;
   cursor: pointer;
   display: none;
 }
 
-.home
-{
+.home {
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -109,38 +109,34 @@ header .navbar a:hover
   z-index: 0;
 }
 
-.home .content
-{
+.home .content {
   text-align: center;
 }
 
-.home .content h3
-{
+.home .content h3 {
   font-size: 2rem;
   color: #fff;
   text-transform: uppercase;
-  text-shadow: 0 .3rem .5rem rgba(0,0,0,.1);
+  text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.1);
 }
 
-.home .content p
-{
+.home .content p {
   font-size: 3rem;
   color: #fff;
-  padding: .5rem 0;
+  padding: 0.5rem 0;
 }
 
-.home .video-container video
-{
+.home .video-container video {
   position: absolute;
-  top:0; left: 0;
+  top: 0;
+  left: 0;
   z-index: -1;
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
 
-.home .controls
-{
+.home .controls {
   padding: 1rem;
   border-radius: 5rem;
   background: transparent;
@@ -148,183 +144,233 @@ header .navbar a:hover
   top: 10rem;
 }
 
-.home .controls .vid-btn
-{
+.home .controls .vid-btn {
   height: 12px;
   width: 12px;
   display: inline-block;
   border-radius: 25%;
   background: white;
   cursor: pointer;
-  margin: 0 .5rem;
+  margin: 0 0.5rem;
 }
 
-.home .controls .vid-btn.active
-{
-  background: #063793;
+.home .controls .vid-btn.active {
+  background: #000000;
 }
 
 /* destinasi favorit  */
-.destinasi
-{
-  background: #FFF5DA;
+.destinasi {
+  background: #ffffff;
+}
+.destinasi.dark-mode {
+  background: #231e0f;
 }
 
-.destinasi .content .box .destinasi-detail .stars i
-{
+.destinasi .content .box .destinasi-detail .stars i {
   font-size: 1.7rem;
   color: #063793;
 }
+.destinasi .content .box .destinasi-detail .stars.dark-mode i {
+  color: #c8d742;
+}
 
-.destinasi .content
-{
+.destinasi .content {
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
 }
 
-.destinasi .content .box
-{
+.destinasi .content .box {
   flex: 1 1 30rem;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   overflow: hidden;
-  box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
 }
 
-.destinasi .content .box img
-{
+.destinasi .content .box img {
   height: 25rem;
   width: 100%;
   object-fit: cover;
 }
 
-.destinasi .content .box .destinasi-detail
-{
+.destinasi .content .box .destinasi-detail {
   padding: 2rem;
 }
 
-.destinasi .content .box .destinasi-detail h3
-{
-  font-size:2rem;
+.destinasi .content .box .destinasi-detail .subtitle {
+  font-size: 2rem;
   color: #333;
 }
+.destinasi .content .box .destinasi-detail .subtitle.dark-mode {
+  color: #ffffff;
+}
 
-.destinasi .content .box .destinasi-detail p
-{
+.destinasi .content .box .destinasi-detail .text {
   font-size: 14px;
   color: #595959;
   padding: 1rem 0;
 }
-
-/* gallery  */
-.gallery
-{
-  background: #D6D2C4;
+.destinasi .content .box .destinasi-detail .text.dark-mode {
+  color: #ffffff;
 }
 
-.gallery .content
-{
+/* gallery  */
+.gallery {
+  background: #339095;
+}
+.gallery.dark-mode {
+  background: #2b2a27;
+}
+
+.gallery .content {
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
 }
 
-.gallery .content .box
-{
+.gallery .content .box {
   overflow: hidden;
-  box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
   border: 1rem solid #fff;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   flex: 1 1 30rem;
   height: 25rem;
   position: relative;
 }
 
-.gallery .content .box img
-{
+.gallery .content .box img {
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
 
-.gallery .content .box .gallery-detail
-{
+.gallery .content .box .gallery-detail {
   position: absolute;
-  top: -100%; left:0;
+  top: -100%;
+  left: 0;
   height: 100%;
   width: 100%;
   text-align: center;
-  background: rgba(0,0,0,.7);
+  background: rgba(0, 0, 0, 0.7);
   padding: 2rem;
   padding-top: 5rem;
 }
 
-.gallery .content .box:hover .gallery-detail
-{
+.gallery .content .box:hover .gallery-detail {
   top: 0;
 }
 
-.gallery .content .box .gallery-detail h3
-{
+.gallery .content .box .gallery-detail h3 {
   font-size: 2.5rem;
   color: #fff;
 }
 
-.gallery .content .box .gallery-detail p
-{
+.gallery .content .box .gallery-detail p {
   font-size: 1.5rem;
   color: #fff;
-  padding: .5rem 0;
+  padding: 0.5rem 0;
 }
 
 /* footer  */
-.footer
-{
-  background: #343A40;
+.footer {
+  background: #343a40;
 }
 
-.footer .footer-container
-{
+.footer .footer-container {
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
 }
 
-.footer .footer-container .title-box
-{
+.footer .footer-container .title-box {
   padding: 1rem 0;
   flex: 1 1 25rem;
 }
 
-.footer .footer-container .title-box h3
-{
+.footer .footer-container .title-box h3 {
   font-size: 2.5rem;
-  padding: .7rem 0;
+  padding: 0.7rem 0;
   color: #fff;
 }
 
-.footer .footer-container .title-box p
-{
+.footer .footer-container .title-box p {
   font-size: 1.5rem;
-  padding: .7rem 0;
+  padding: 0.7rem 0;
   color: #eee;
 }
 
-.footer .footer-container .title-box a
-{
+.footer .footer-container .title-box a {
   display: block;
   font-size: 1.5rem;
-  padding: .7rem 0;
+  padding: 0.7rem 0;
   color: #eee;
 }
 
-.footer .copyright
-{
+.footer .copyright {
   text-align: center;
   padding: 2rem 1rem;
   margin-top: 1rem;
   font-size: 2rem;
   font-weight: normal;
   color: #fff;
-  border-top: .1rem solid rgba(255,255,255,.2);
+  border-top: 0.1rem solid rgba(255, 255, 255, 0.2);
+}
+
+:root {
+  --light: #d8dbe0;
+  --dark: #28292c;
+  --link: rgb(27, 129, 112);
+  --link-hover: rgb(24, 94, 82);
+}
+
+.toggle-switch {
+  position: relative;
+  width: 100px;
+  margin-top: -37px;
+  margin-left: 350px;
+}
+
+label {
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  background-color: var(--dark);
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+input {
+  position: absolute;
+  display: none;
+}
+
+.slider {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  transition: 0.3s;
+}
+
+input:checked ~ .slider {
+  background-color: var(--light);
+}
+
+.slider::before {
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: 8px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  box-shadow: inset 14px -2px 0px 0px var(--light);
+  background-color: var(--dark);
+  transition: 0.3s;
+}
+
+input:checked ~ .slider::before {
+  transform: translateX(45px);
+  background-color: var(--dark);
+  box-shadow: none;
 }

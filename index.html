@@ -43,6 +43,12 @@
                 <a href="index.html">Home</a>
                 <a href="#destinasi">Destinasi Favorite</a>
                 <a href="#gallery">Gallery</a>
+                <div class = 'toggle-switch'>
+                    <label>
+                        <input type="checkbox" id="styleToggle" onclick="toggleStyle()">
+                        <span class = 'slider'></span>
+                    </label>
+                </div>
             </nav>
         </header>
         <!-- header -->
@@ -72,14 +78,14 @@
         <main>
             <section class="destinasi" id="destinasi">
                 <h1 class="judul">
-                    <span>Destinasi Wisata Favorit</span>
+                    <span class="subjudul">Destinasi Wisata Favorit</span>
                 </h1>
 
                 <div class="content">
                     <div class="box">
                         <img src="assets/images/danau-toba.jpg" alt>
                         <div class="destinasi-detail">
-                            <h3>Danau Toba</h3>
+                            <h3 class="subtitle">Danau Toba</h3>
                             <div class="stars">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -87,7 +93,7 @@
                                 <i class="fas fa-star"></i>
                                 <i class="far fa-star"></i>
                             </div>
-                            <p>Keindahan alam Indonesia juga dapat kamu nikmati
+                            <p class="text">Keindahan alam Indonesia juga dapat kamu nikmati
                                 saat berkunjung ke Danau Toba yang terletak di
                                 wilayah Sumatera Utara. Danau Toba merupakan
                                 danau terbesar di Indonesia. Di tengah-tengah
@@ -98,7 +104,7 @@
                                 mengeksplorasi sejarah dan kebudayaan masyarakat
                                 lokal.</p>
 
-                            <p>Berada sekitar 900 meter dari permukaan laut,
+                            <p class="text">Berada sekitar 900 meter dari permukaan laut,
                                 suasana di sekitar Danau Toba terasa sejuk.
                                 Sembari bersantai menikmati panorama alam yang
                                 memesona, cicipi kuliner olahan seafood yang
@@ -113,14 +119,14 @@
                     <div class="box">
                         <img src="assets/images/pulau-belitung.jpg" alt>
                         <div class="destinasi-detail">
-                            <h3>Pulau Belitung</h3>
+                            <h3 class="subtitle">Pulau Belitung</h3>
                             <div class="stars">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                             </div>
-                            <p>Pulau Belitung menjadi salah satu destinasi
+                            <p class="text">Pulau Belitung menjadi salah satu destinasi
                                 wisata yang menunjukkan keindahan alam
                                 Indonesia. Pengunjung yang datang ke daerah ini
                                 terus meningkat sepanjang tahun. Ada sejumlah
@@ -130,7 +136,7 @@
                                 Lengkuas. Tempat-tempat ini identik dengan pasir
                                 putih dan air laut yang jernih.</p>
 
-                            <p>Nama Pulau Belitung semakin terkenal sejak Andrea
+                            <p class="text">Nama Pulau Belitung semakin terkenal sejak Andrea
                                 Hirata mempublikasikan novelnya berjudul Laskar
                                 Pelangi. Berlatar belakang keindahan Pulau
                                 Lengkuas yang memukau, kisah inspiratif ini
@@ -144,21 +150,21 @@
                     <div class="box">
                         <img src="assets/images/pulau-komodo.jpg" alt>
                         <div class="destinasi-detail">
-                            <h3>Pulau Komodo</h3>
+                            <h3 class="subtitle">Pulau Komodo</h3>
                             <div class="stars">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                             </div>
-                            <p>Satu lagi keindahan alam Indonesia yang telah
+                            <p class="text">Satu lagi keindahan alam Indonesia yang telah
                                 mendunia di Nusa Tenggara Timur, yakni Pulau
                                 Komodo. Di destinasi wisata alam Indonesia satu
                                 inilah hidup tak kurang dari 2000 ekor Komodo,
                                 hewan endemik Indonesia yang juga telah populer
                                 di mata dunia.</p>
 
-                            <p>Namun, daya tarik dari pulau Komodo tak hanya
+                            <p class="text">Namun, daya tarik dari pulau Komodo tak hanya
                                 pada hewan reptil purba-nya saja, melainkan juga
                                 keindahan alamnya yang sangat memukau!</p>
                         </div>
@@ -167,7 +173,7 @@
                     <div class="box">
                         <img src="assets/images/mentawai.jpg" alt>
                         <div class="destinasi-detail">
-                            <h3>Mentawai</h3>
+                            <h3 class="subtitle">Mentawai</h3>
                             <div class="stars">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -175,13 +181,13 @@
                                 <i class="fas fa-star"></i>
                                 <i class="far fa-star"></i>
                             </div>
-                            <p>Kepulauan Mentawai sejak lama terkenal sebagai
+                            <p class="text">Kepulauan Mentawai sejak lama terkenal sebagai
                                 salah satu surga bagi peselancar dunia dan masuk
                                 di jajaran ombak terbaik dunia. Dilansir dari
                                 berbagai sumber, salah satu spot surfing favorit
                                 di Mentawai adalah Suicide.</p>
 
-                            <p>Lokasinya berada di dekat Pulau Awera dan tidak
+                            <p class="text">Lokasinya berada di dekat Pulau Awera dan tidak
                                 terlalu jauh dari Pulau Sipora yang menjadi
                                 pusat kegiatan pemerintah di Mentawai.
                                 Ketinggian ombak berkisar 4-7 meter. Untuk
@@ -189,7 +195,7 @@
                                 kapal karena ombaknya berada jauh dari bibir
                                 pantai.</p>
 
-                            <p>Dengan beragam kekayaan alam dan budaya, tak
+                            <p class="text">Dengan beragam kekayaan alam dan budaya, tak
                                 salah bila menjadikan daerah ini sebagai tujuan
                                 wisata. Apalagi, failitas dan akomodasi di
                                 Kepulauan Mentawai cukup lengkap karena
@@ -202,7 +208,7 @@
                     <div class="box">
                         <img src="assets/images/sumba.jpg" alt>
                         <div class="destinasi-detail">
-                            <h3>Sumba, Nusa Tenggara Timur</h3>
+                            <h3 class="subtitle">Sumba, Nusa Tenggara Timur</h3>
                             <div class="stars">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -210,7 +216,7 @@
                                 <i class="fas fa-star"></i>
                                 <i class="far fa-star"></i>
                             </div>
-                            <p>Sumba, merupakan sebuah pulau eksotis berselimut
+                            <p class="text">Sumba, merupakan sebuah pulau eksotis berselimut
                                 kabut mistis yang terletak di Nusa Tenggara
                                 Timur. Menginjakkan kaki di sini seakan membawa
                                 kita kedunia lain dengan kebudayaannya yang
@@ -229,7 +235,7 @@
                     <div class="box">
                         <img src="assets/images/pulau-anambas.jpg" alt>
                         <div class="destinasi-detail">
-                            <h3>Anambas Islands, Kepulauan Riau</h3>
+                            <h3 class="subtitle">Anambas Islands, Kepulauan Riau</h3>
                             <div class="stars">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -237,19 +243,19 @@
                                 <i class="fas fa-star"></i>
                                 <i class="far fa-star"></i>
                             </div>
-                            <p>Istirahatkan pandangan Anda di pulau surga
+                            <p class="text">Istirahatkan pandangan Anda di pulau surga
                                 terpencil di Nekeep, bagian dari Kepulauan
                                 Anambas, sekelompok 255 pulau alami yang
                                 terkenal dengan tempat liburan terpencil.</p>
 
-                            <p>Temukan diri Anda dikelilingi oleh terumbu karang
+                            <p class="text">Temukan diri Anda dikelilingi oleh terumbu karang
                                 yang hidup, ombak yang tenang, bebatuan granit
                                 raksasa, dan laguna yang indah. Habiskan waktu
                                 Anda di sini untuk menemukan tempat perlindungan
                                 yang damai di pantai berpasir putih dan berenang
                                 santai di laguna yang sejuk.</p>
 
-                            <p>Bagi pecinta hewan, lebih dekat dan pribadi
+                            <p class="text">Bagi pecinta hewan, lebih dekat dan pribadi
                                 dengan penyu yang agung melalui perjalanan
                                 perahu di dekat N tongkat. Bagi mereka yang
                                 mencari petualangan yang lebih hebat, cobalah
@@ -282,8 +288,8 @@
                         <div class="box">
                             <img src="assets/images/tanah-lot.jpg" alt>
                             <div class="gallery-detail">
-                                <h3>Tanah Lot, Bali</h3>
-                                <p>Tanah Lot, Beraban, Kec. Kediri, Kabupaten
+                                <h3 class="subtitle">Tanah Lot, Bali</h3>
+                                <p class="text">Tanah Lot, Beraban, Kec. Kediri, Kabupaten
                                     Tabanan, Bali 82121.</p>
                             </div>
                         </div>
@@ -291,8 +297,8 @@
                         <div class="box">
                             <img src="assets/images/ranca-upas.jpg" alt>
                             <div class="gallery-detail">
-                                <h3>Ranca Upas, Bandung</h3>
-                                <p>Rancaupas, Jl. Raya Ciwidey - Patengan No.KM.
+                                <h3 class="subtitle">Ranca Upas, Bandung</h3>
+                                <p class="text">Rancaupas, Jl. Raya Ciwidey - Patengan No.KM.
                                     11, Patengan, Kec. Rancabali, Bandung, Jawa
                                     Barat 40973.</p>
                             </div>
@@ -301,8 +307,8 @@
                         <div class="box">
                             <img src="assets/images/pahawang.jpg" alt>
                             <div class="gallery-detail">
-                                <h3>Pahawang Islands, Bandar Lampung</h3>
-                                <p>Pulau Pahawang, Punduh Pidada, Kabupaten
+                                <h3 class="subtitle">Pahawang Islands, Bandar Lampung</h3>
+                                <p class="text">Pulau Pahawang, Punduh Pidada, Kabupaten
                                     Pesawaran, Lampung.</p>
                             </div>
                         </div>
@@ -310,8 +316,8 @@
                         <div class="box">
                             <img src="assets/images/musium-angkut.jpg" alt>
                             <div class="gallery-detail">
-                                <h3>Museum Angkut, Malang</h3>
-                                <p>Museum Angkut, Jl. Terusan Sultan Agung No.2,
+                                <h3 class="subtitle">Museum Angkut, Malang</h3>
+                                <p class="text">Museum Angkut, Jl. Terusan Sultan Agung No.2,
                                     Ngaglik, Kec. Batu, Kota Batu, Jawa Timur
                                     65314.</p>
                             </div>
@@ -320,8 +326,8 @@
                         <div class="box">
                             <img src="assets/images/nusa-penida.jpg" alt>
                             <div class="gallery-detail">
-                                <h3>Nusa Penida, Bali</h3>
-                                <p>Nusa Penida, Nusapenida, Kabupaten Klungkung,
+                                <h3 class="subtitle">Nusa Penida, Bali</h3>
+                                <p class="text">Nusa Penida, Nusapenida, Kabupaten Klungkung,
                                     Bali.</p>
                             </div>
                         </div>
@@ -329,24 +335,24 @@
                         <div class="box">
                             <img src="assets/images/raja-ampat.jpg" alt>
                             <div class="gallery-detail">
-                                <h3>Raja Ampat, Papua</h3>
-                                <p>Raja Ampat Regency, West Papua.</p>
+                                <h3 class="subtitle">Raja Ampat, Papua</h3>
+                                <p class="text">Raja Ampat Regency, West Papua.</p>
                             </div>
                         </div>
 
                         <div class="box">
                             <img src="assets/images/kawah-ijen.jpg" alt>
                             <div class="gallery-detail">
-                                <h3>Kawah Ijen</h3>
-                                <p>Gn. Ijen, Jawa Timur</p>
+                                <h3 class="subtitle">Kawah Ijen</h3>
+                                <p class="text">Gn. Ijen, Jawa Timur</p>
                             </div>
                         </div>
 
                         <div class="box">
                             <img src="assets/images/labuan-bajo.jpg" alt>
                             <div class="gallery-detail">
-                                <h3>Labuan Bajo</h3>
-                                <p>Labuan Bajo, Komodo, West Manggarai Regency,
+                                <h3 class="subtitle">Labuan Bajo</h3>
+                                <p class="text">Labuan Bajo, Komodo, West Manggarai Regency,
                                     East Nusa Tenggara.</p>
                             </div>
                         </div>
@@ -354,8 +360,8 @@
                         <div class="box">
                             <img src="assets/images/candi-sewu.jpg" alt>
                             <div class="gallery-detail">
-                                <h3>Candi Sewu</h3>
-                                <p>Candi Sewu, Jl. Raya Solo - Yogyakarta
+                                <h3 class="subtitle">Candi Sewu</h3>
+                                <p class="text">Candi Sewu, Jl. Raya Solo - Yogyakarta
                                     No.KM.16, Bugisan, Kec. Prambanan, Kabupaten
                                     Sleman, Daerah Istimewa Yogyakarta.</p>
                             </div>
