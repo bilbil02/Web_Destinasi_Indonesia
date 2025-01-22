@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: bila27-uasdevops
+  namespace: default
+spec:
+  containers:
+  - name: bila27-uasdevops
+    image: bila27/uasdevops:latest
+    imagePullPolicy: Always
+  restartPolicy: Never
