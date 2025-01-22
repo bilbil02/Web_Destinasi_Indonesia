@@ -1,0 +1,212 @@
+
+==> Audit <==
+|---------|-----------------|----------|----------------------|---------|---------------------|---------------------|
+| Command |      Args       | Profile  |         User         | Version |     Start Time      |      End Time       |
+|---------|-----------------|----------|----------------------|---------|---------------------|---------------------|
+| start   |                 | minikube | LAPTOP-7HA2V4CJ\ACER | v1.34.0 | 26 Nov 24 20:08 +07 |                     |
+| start   |                 | minikube | LAPTOP-7HA2V4CJ\ACER | v1.34.0 | 26 Nov 24 21:24 +07 |                     |
+| start   |                 | minikube | LAPTOP-7HA2V4CJ\ACER | v1.34.0 | 26 Nov 24 21:41 +07 |                     |
+| start   |                 | minikube | LAPTOP-7HA2V4CJ\ACER | v1.34.0 | 26 Nov 24 22:04 +07 |                     |
+| delete  |                 | minikube | LAPTOP-7HA2V4CJ\ACER | v1.34.0 | 26 Nov 24 22:07 +07 | 26 Nov 24 22:08 +07 |
+| start   |                 | minikube | LAPTOP-7HA2V4CJ\ACER | v1.34.0 | 26 Nov 24 22:09 +07 |                     |
+| start   |                 | minikube | LAPTOP-7HA2V4CJ\ACER | v1.34.0 | 28 Nov 24 09:05 +07 |                     |
+| start   |                 | minikube | LAPTOP-7HA2V4CJ\ACER | v1.34.0 | 28 Nov 24 09:08 +07 | 28 Nov 24 09:08 +07 |
+| service | wordpress --url | minikube | LAPTOP-7HA2V4CJ\ACER | v1.34.0 | 28 Nov 24 09:13 +07 |                     |
+| start   |                 | minikube | LAPTOP-7HA2V4CJ\ACER | v1.34.0 | 28 Nov 24 09:14 +07 |                     |
+| service | wordpress --url | minikube | LAPTOP-7HA2V4CJ\ACER | v1.34.0 | 28 Nov 24 09:15 +07 |                     |
+| start   |                 | minikube | LAPTOP-7HA2V4CJ\ACER | v1.34.0 | 28 Nov 24 09:16 +07 |                     |
+| start   | --driver=docker | minikube | LAPTOP-7HA2V4CJ\ACER | v1.34.0 | 28 Nov 24 09:18 +07 | 28 Nov 24 09:19 +07 |
+| service | wordpress --url | minikube | LAPTOP-7HA2V4CJ\ACER | v1.34.0 | 28 Nov 24 09:21 +07 |                     |
+| start   |                 | minikube | LAPTOP-7HA2V4CJ\ACER | v1.34.0 | 28 Nov 24 09:21 +07 |                     |
+| service | wordpress --url | minikube | LAPTOP-7HA2V4CJ\ACER | v1.34.0 | 28 Nov 24 09:23 +07 |                     |
+| start   |                 | minikube | LAPTOP-7HA2V4CJ\ACER | v1.34.0 | 22 Jan 25 20:28 +07 |                     |
+| start   |                 | minikube | LAPTOP-7HA2V4CJ\ACER | v1.34.0 | 22 Jan 25 22:40 +07 |                     |
+| start   |                 | minikube | LAPTOP-7HA2V4CJ\ACER | v1.34.0 | 22 Jan 25 23:30 +07 |                     |
+| start   |                 | minikube | LAPTOP-7HA2V4CJ\ACER | v1.34.0 | 22 Jan 25 23:40 +07 |                     |
+| start   |                 | minikube | LAPTOP-7HA2V4CJ\ACER | v1.34.0 | 22 Jan 25 23:42 +07 | 22 Jan 25 23:44 +07 |
+| start   |                 | minikube | LAPTOP-7HA2V4CJ\ACER | v1.34.0 | 22 Jan 25 23:44 +07 |                     |
+|---------|-----------------|----------|----------------------|---------|---------------------|---------------------|
+
+
+==> Last Start <==
+Log file created at: 2025/01/22 23:44:27
+Running on machine: LAPTOP-7HA2V4CJ
+Binary: Built with gc go1.22.5 for windows/amd64
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0122 23:44:27.255291    3364 out.go:345] Setting OutFile to fd 92 ...
+I0122 23:44:27.257306    3364 out.go:397] isatty.IsTerminal(92) = true
+I0122 23:44:27.257306    3364 out.go:358] Setting ErrFile to fd 100...
+I0122 23:44:27.257306    3364 out.go:397] isatty.IsTerminal(100) = true
+I0122 23:44:27.287064    3364 out.go:352] Setting JSON to false
+I0122 23:44:27.297774    3364 start.go:129] hostinfo: {"hostname":"LAPTOP-7HA2V4CJ","uptime":1188,"bootTime":1737563078,"procs":285,"os":"windows","platform":"Microsoft Windows 11 Home Single Language","platformFamily":"Standalone Workstation","platformVersion":"10.0.22631.4751 Build 22631.4751","kernelVersion":"10.0.22631.4751 Build 22631.4751","kernelArch":"x86_64","virtualizationSystem":"","virtualizationRole":"","hostId":"860adb93-c589-4362-b391-7d0ee6319d99"}
+W0122 23:44:27.297774    3364 start.go:137] gopshost.Virtualization returned error: not implemented yet
+I0122 23:44:27.446418    3364 out.go:177] 😄  minikube v1.34.0 on Microsoft Windows 11 Home Single Language 10.0.22631.4751 Build 22631.4751
+I0122 23:44:27.595521    3364 notify.go:220] Checking for updates...
+I0122 23:44:27.600801    3364 config.go:182] Loaded profile config "minikube": Driver=docker, ContainerRuntime=docker, KubernetesVersion=v1.31.0
+I0122 23:44:27.601315    3364 driver.go:394] Setting default libvirt URI to qemu:///system
+I0122 23:44:27.841339    3364 docker.go:123] docker version: linux-27.3.1:Docker Desktop 4.35.1 (173168)
+I0122 23:44:27.856367    3364 cli_runner.go:164] Run: docker system info --format "{{json .}}"
+I0122 23:44:46.518865    3364 cli_runner.go:217] Completed: docker system info --format "{{json .}}": (18.662498s)
+I0122 23:44:46.541337    3364 info.go:266] docker info: {ID:01c3f0c1-8ec7-4ec3-a5c6-9e5e47179c06 Containers:38 ContainersRunning:33 ContainersPaused:0 ContainersStopped:5 Images:16 Driver:overlay2 DriverStatus:[[Backing Filesystem extfs] [Supports d_type true] [Using metacopy false] [Native Overlay Diff true] [userxattr false]] SystemStatus:<nil> Plugins:{Volume:[local] Network:[bridge host ipvlan macvlan null overlay] Authorization:<nil> Log:[awslogs fluentd gcplogs gelf journald json-file local splunk syslog]} MemoryLimit:true SwapLimit:true KernelMemory:false KernelMemoryTCP:true CPUCfsPeriod:true CPUCfsQuota:true CPUShares:true CPUSet:true PidsLimit:true IPv4Forwarding:true BridgeNfIptables:true BridgeNfIP6Tables:true Debug:false NFd:161 OomKillDisable:true NGoroutines:162 SystemTime:2025-01-22 16:44:46.434037292 +0000 UTC LoggingDriver:json-file CgroupDriver:cgroupfs NEventsListener:15 KernelVersion:5.15.167.4-microsoft-standard-WSL2 OperatingSystem:Docker Desktop OSType:linux Architecture:x86_64 IndexServerAddress:https://index.docker.io/v1/ RegistryConfig:{AllowNondistributableArtifactsCIDRs:[] AllowNondistributableArtifactsHostnames:[] InsecureRegistryCIDRs:[127.0.0.0/8] IndexConfigs:{DockerIo:{Name:docker.io Mirrors:[] Secure:true Official:true}} Mirrors:[]} NCPU:4 MemTotal:6101524480 GenericResources:<nil> DockerRootDir:/var/lib/docker HTTPProxy:http.docker.internal:3128 HTTPSProxy:http.docker.internal:3128 NoProxy:hubproxy.docker.internal Name:docker-desktop Labels:[com.docker.desktop.address=npipe://\\.\pipe\docker_cli] ExperimentalBuild:false ServerVersion:27.3.1 ClusterStore: ClusterAdvertise: Runtimes:{Runc:{Path:runc}} DefaultRuntime:runc Swarm:{NodeID: NodeAddr: LocalNodeState:inactive ControlAvailable:false Error: RemoteManagers:<nil>} LiveRestoreEnabled:false Isolation: InitBinary:docker-init ContainerdCommit:{ID:472731909fa34bd7bc9c087e4c27943f9835f111 Expected:472731909fa34bd7bc9c087e4c27943f9835f111} RuncCommit:{ID:v1.1.13-0-g58aa920 Expected:v1.1.13-0-g58aa920} InitCommit:{ID:de40ad0 Expected:de40ad0} SecurityOptions:[name=seccomp,profile=unconfined] ProductLicense: Warnings:[WARNING: No blkio throttle.read_bps_device support WARNING: No blkio throttle.write_bps_device support WARNING: No blkio throttle.read_iops_device support WARNING: No blkio throttle.write_iops_device support WARNING: daemon is not using the default seccomp profile] ServerErrors:[] ClientInfo:{Debug:false Plugins:[map[Name:buildx Path:C:\Program Files\Docker\cli-plugins\docker-buildx.exe SchemaVersion:0.1.0 ShortDescription:Docker Buildx Vendor:Docker Inc. Version:v0.17.1-desktop.1] map[Name:compose Path:C:\Program Files\Docker\cli-plugins\docker-compose.exe SchemaVersion:0.1.0 ShortDescription:Docker Compose Vendor:Docker Inc. Version:v2.29.7-desktop.1] map[Name:debug Path:C:\Program Files\Docker\cli-plugins\docker-debug.exe SchemaVersion:0.1.0 ShortDescription:Get a shell into any image or container Vendor:Docker Inc. Version:0.0.37] map[Name:desktop Path:C:\Program Files\Docker\cli-plugins\docker-desktop.exe SchemaVersion:0.1.0 ShortDescription:Docker Desktop commands (Alpha) Vendor:Docker Inc. Version:v0.0.15] map[Name:dev Path:C:\Program Files\Docker\cli-plugins\docker-dev.exe SchemaVersion:0.1.0 ShortDescription:Docker Dev Environments Vendor:Docker Inc. Version:v0.1.2] map[Name:extension Path:C:\Program Files\Docker\cli-plugins\docker-extension.exe SchemaVersion:0.1.0 ShortDescription:Manages Docker extensions Vendor:Docker Inc. Version:v0.2.27] map[Name:feedback Path:C:\Program Files\Docker\cli-plugins\docker-feedback.exe SchemaVersion:0.1.0 ShortDescription:Provide feedback, right in your terminal! Vendor:Docker Inc. Version:v1.0.5] map[Name:init Path:C:\Program Files\Docker\cli-plugins\docker-init.exe SchemaVersion:0.1.0 ShortDescription:Creates Docker-related starter files for your project Vendor:Docker Inc. Version:v1.3.0] map[Name:sbom Path:C:\Program Files\Docker\cli-plugins\docker-sbom.exe SchemaVersion:0.1.0 ShortDescription:View the packaged-based Software Bill Of Materials (SBOM) for an image URL:https://github.com/docker/sbom-cli-plugin Vendor:Anchore Inc. Version:0.6.0] map[Name:scout Path:C:\Program Files\Docker\cli-plugins\docker-scout.exe SchemaVersion:0.1.0 ShortDescription:Docker Scout Vendor:Docker Inc. Version:v1.14.0]] Warnings:<nil>}}
+I0122 23:44:46.567010    3364 out.go:177] ✨  Using the docker driver based on existing profile
+I0122 23:44:46.693569    3364 start.go:297] selected driver: docker
+I0122 23:44:46.697309    3364 start.go:901] validating driver "docker" against &{Name:minikube KeepContext:false EmbedCerts:false MinikubeISO: KicBaseImage:gcr.io/k8s-minikube/kicbase:v0.0.45@sha256:81df288595202a317b1a4dc2506ca2e4ed5f22373c19a441b88cfbf4b9867c85 Memory:3000 CPUs:2 DiskSize:20000 Driver:docker HyperkitVpnKitSock: HyperkitVSockPorts:[] DockerEnv:[] ContainerVolumeMounts:[] InsecureRegistry:[] RegistryMirror:[] HostOnlyCIDR:192.168.59.1/24 HypervVirtualSwitch: HypervUseExternalSwitch:false HypervExternalAdapter: KVMNetwork:default KVMQemuURI:qemu:///system KVMGPU:false KVMHidden:false KVMNUMACount:1 APIServerPort:8443 DockerOpt:[] DisableDriverMounts:false NFSShare:[] NFSSharesRoot:/nfsshares UUID: NoVTXCheck:false DNSProxy:false HostDNSResolver:true HostOnlyNicType:virtio NatNicType:virtio SSHIPAddress: SSHUser:root SSHKey: SSHPort:22 KubernetesConfig:{KubernetesVersion:v1.31.0 ClusterName:minikube Namespace:default APIServerHAVIP: APIServerName:minikubeCA APIServerNames:[] APIServerIPs:[] DNSDomain:cluster.local ContainerRuntime:docker CRISocket: NetworkPlugin:cni FeatureGates: ServiceCIDR:10.96.0.0/12 ImageRepository: LoadBalancerStartIP: LoadBalancerEndIP: CustomIngressCert: RegistryAliases: ExtraOptions:[] ShouldLoadCachedImages:true EnableDefaultCNI:false CNI:} Nodes:[{Name: IP:192.168.58.2 Port:8443 KubernetesVersion:v1.31.0 ContainerRuntime:docker ControlPlane:true Worker:true}] Addons:map[default-storageclass:true storage-provisioner:true] CustomAddonImages:map[] CustomAddonRegistries:map[] VerifyComponents:map[apiserver:true system_pods:true] StartHostTimeout:6m0s ScheduledStop:<nil> ExposedPorts:[] ListenAddress: Network: Subnet: MultiNodeRequested:false ExtraDisks:0 CertExpiration:26280h0m0s Mount:false MountString:C:\Users\ACER:/minikube-host Mount9PVersion:9p2000.L MountGID:docker MountIP: MountMSize:262144 MountOptions:[] MountPort:0 MountType:9p MountUID:docker BinaryMirror: DisableOptimizations:false DisableMetrics:false CustomQemuFirmwarePath: SocketVMnetClientPath: SocketVMnetPath: StaticIP: SSHAuthSock: SSHAgentPID:0 GPUs: AutoPauseInterval:1m0s}
+I0122 23:44:46.697825    3364 start.go:912] status for docker: {Installed:true Healthy:true Running:false NeedsImprovement:false Error:<nil> Reason: Fix: Doc: Version:}
+I0122 23:44:46.747809    3364 cli_runner.go:164] Run: docker system info --format "{{json .}}"
+I0122 23:44:52.045105    3364 cli_runner.go:217] Completed: docker system info --format "{{json .}}": (5.2972968s)
+I0122 23:44:52.045744    3364 info.go:266] docker info: {ID:01c3f0c1-8ec7-4ec3-a5c6-9e5e47179c06 Containers:37 ContainersRunning:33 ContainersPaused:0 ContainersStopped:4 Images:16 Driver:overlay2 DriverStatus:[[Backing Filesystem extfs] [Supports d_type true] [Using metacopy false] [Native Overlay Diff true] [userxattr false]] SystemStatus:<nil> Plugins:{Volume:[local] Network:[bridge host ipvlan macvlan null overlay] Authorization:<nil> Log:[awslogs fluentd gcplogs gelf journald json-file local splunk syslog]} MemoryLimit:true SwapLimit:true KernelMemory:false KernelMemoryTCP:true CPUCfsPeriod:true CPUCfsQuota:true CPUShares:true CPUSet:true PidsLimit:true IPv4Forwarding:true BridgeNfIptables:true BridgeNfIP6Tables:true Debug:false NFd:164 OomKillDisable:true NGoroutines:166 SystemTime:2025-01-22 16:44:52.013746601 +0000 UTC LoggingDriver:json-file CgroupDriver:cgroupfs NEventsListener:15 KernelVersion:5.15.167.4-microsoft-standard-WSL2 OperatingSystem:Docker Desktop OSType:linux Architecture:x86_64 IndexServerAddress:https://index.docker.io/v1/ RegistryConfig:{AllowNondistributableArtifactsCIDRs:[] AllowNondistributableArtifactsHostnames:[] InsecureRegistryCIDRs:[127.0.0.0/8] IndexConfigs:{DockerIo:{Name:docker.io Mirrors:[] Secure:true Official:true}} Mirrors:[]} NCPU:4 MemTotal:6101524480 GenericResources:<nil> DockerRootDir:/var/lib/docker HTTPProxy:http.docker.internal:3128 HTTPSProxy:http.docker.internal:3128 NoProxy:hubproxy.docker.internal Name:docker-desktop Labels:[com.docker.desktop.address=npipe://\\.\pipe\docker_cli] ExperimentalBuild:false ServerVersion:27.3.1 ClusterStore: ClusterAdvertise: Runtimes:{Runc:{Path:runc}} DefaultRuntime:runc Swarm:{NodeID: NodeAddr: LocalNodeState:inactive ControlAvailable:false Error: RemoteManagers:<nil>} LiveRestoreEnabled:false Isolation: InitBinary:docker-init ContainerdCommit:{ID:472731909fa34bd7bc9c087e4c27943f9835f111 Expected:472731909fa34bd7bc9c087e4c27943f9835f111} RuncCommit:{ID:v1.1.13-0-g58aa920 Expected:v1.1.13-0-g58aa920} InitCommit:{ID:de40ad0 Expected:de40ad0} SecurityOptions:[name=seccomp,profile=unconfined] ProductLicense: Warnings:[WARNING: No blkio throttle.read_bps_device support WARNING: No blkio throttle.write_bps_device support WARNING: No blkio throttle.read_iops_device support WARNING: No blkio throttle.write_iops_device support WARNING: daemon is not using the default seccomp profile] ServerErrors:[] ClientInfo:{Debug:false Plugins:[map[Name:buildx Path:C:\Program Files\Docker\cli-plugins\docker-buildx.exe SchemaVersion:0.1.0 ShortDescription:Docker Buildx Vendor:Docker Inc. Version:v0.17.1-desktop.1] map[Name:compose Path:C:\Program Files\Docker\cli-plugins\docker-compose.exe SchemaVersion:0.1.0 ShortDescription:Docker Compose Vendor:Docker Inc. Version:v2.29.7-desktop.1] map[Name:debug Path:C:\Program Files\Docker\cli-plugins\docker-debug.exe SchemaVersion:0.1.0 ShortDescription:Get a shell into any image or container Vendor:Docker Inc. Version:0.0.37] map[Name:desktop Path:C:\Program Files\Docker\cli-plugins\docker-desktop.exe SchemaVersion:0.1.0 ShortDescription:Docker Desktop commands (Alpha) Vendor:Docker Inc. Version:v0.0.15] map[Name:dev Path:C:\Program Files\Docker\cli-plugins\docker-dev.exe SchemaVersion:0.1.0 ShortDescription:Docker Dev Environments Vendor:Docker Inc. Version:v0.1.2] map[Name:extension Path:C:\Program Files\Docker\cli-plugins\docker-extension.exe SchemaVersion:0.1.0 ShortDescription:Manages Docker extensions Vendor:Docker Inc. Version:v0.2.27] map[Name:feedback Path:C:\Program Files\Docker\cli-plugins\docker-feedback.exe SchemaVersion:0.1.0 ShortDescription:Provide feedback, right in your terminal! Vendor:Docker Inc. Version:v1.0.5] map[Name:init Path:C:\Program Files\Docker\cli-plugins\docker-init.exe SchemaVersion:0.1.0 ShortDescription:Creates Docker-related starter files for your project Vendor:Docker Inc. Version:v1.3.0] map[Name:sbom Path:C:\Program Files\Docker\cli-plugins\docker-sbom.exe SchemaVersion:0.1.0 ShortDescription:View the packaged-based Software Bill Of Materials (SBOM) for an image URL:https://github.com/docker/sbom-cli-plugin Vendor:Anchore Inc. Version:0.6.0] map[Name:scout Path:C:\Program Files\Docker\cli-plugins\docker-scout.exe SchemaVersion:0.1.0 ShortDescription:Docker Scout Vendor:Docker Inc. Version:v1.14.0]] Warnings:<nil>}}
+I0122 23:44:52.176692    3364 cni.go:84] Creating CNI manager for ""
+I0122 23:44:52.176692    3364 cni.go:158] "docker" driver + "docker" container runtime found on kubernetes v1.24+, recommending bridge
+I0122 23:44:52.178202    3364 start.go:340] cluster config:
+{Name:minikube KeepContext:false EmbedCerts:false MinikubeISO: KicBaseImage:gcr.io/k8s-minikube/kicbase:v0.0.45@sha256:81df288595202a317b1a4dc2506ca2e4ed5f22373c19a441b88cfbf4b9867c85 Memory:3000 CPUs:2 DiskSize:20000 Driver:docker HyperkitVpnKitSock: HyperkitVSockPorts:[] DockerEnv:[] ContainerVolumeMounts:[] InsecureRegistry:[] RegistryMirror:[] HostOnlyCIDR:192.168.59.1/24 HypervVirtualSwitch: HypervUseExternalSwitch:false HypervExternalAdapter: KVMNetwork:default KVMQemuURI:qemu:///system KVMGPU:false KVMHidden:false KVMNUMACount:1 APIServerPort:8443 DockerOpt:[] DisableDriverMounts:false NFSShare:[] NFSSharesRoot:/nfsshares UUID: NoVTXCheck:false DNSProxy:false HostDNSResolver:true HostOnlyNicType:virtio NatNicType:virtio SSHIPAddress: SSHUser:root SSHKey: SSHPort:22 KubernetesConfig:{KubernetesVersion:v1.31.0 ClusterName:minikube Namespace:default APIServerHAVIP: APIServerName:minikubeCA APIServerNames:[] APIServerIPs:[] DNSDomain:cluster.local ContainerRuntime:docker CRISocket: NetworkPlugin:cni FeatureGates: ServiceCIDR:10.96.0.0/12 ImageRepository: LoadBalancerStartIP: LoadBalancerEndIP: CustomIngressCert: RegistryAliases: ExtraOptions:[] ShouldLoadCachedImages:true EnableDefaultCNI:false CNI:} Nodes:[{Name: IP:192.168.58.2 Port:8443 KubernetesVersion:v1.31.0 ContainerRuntime:docker ControlPlane:true Worker:true}] Addons:map[default-storageclass:true storage-provisioner:true] CustomAddonImages:map[] CustomAddonRegistries:map[] VerifyComponents:map[apiserver:true system_pods:true] StartHostTimeout:6m0s ScheduledStop:<nil> ExposedPorts:[] ListenAddress: Network: Subnet: MultiNodeRequested:false ExtraDisks:0 CertExpiration:26280h0m0s Mount:false MountString:C:\Users\ACER:/minikube-host Mount9PVersion:9p2000.L MountGID:docker MountIP: MountMSize:262144 MountOptions:[] MountPort:0 MountType:9p MountUID:docker BinaryMirror: DisableOptimizations:false DisableMetrics:false CustomQemuFirmwarePath: SocketVMnetClientPath: SocketVMnetPath: StaticIP: SSHAuthSock: SSHAgentPID:0 GPUs: AutoPauseInterval:1m0s}
+I0122 23:44:52.257953    3364 out.go:177] 👍  Starting "minikube" primary control-plane node in "minikube" cluster
+I0122 23:44:52.396737    3364 cache.go:121] Beginning downloading kic base image for docker with docker
+I0122 23:44:52.643704    3364 out.go:177] 🚜  Pulling base image v0.0.45 ...
+I0122 23:44:52.774587    3364 preload.go:131] Checking if preload exists for k8s version v1.31.0 and runtime docker
+I0122 23:44:52.774587    3364 image.go:79] Checking for gcr.io/k8s-minikube/kicbase:v0.0.45@sha256:81df288595202a317b1a4dc2506ca2e4ed5f22373c19a441b88cfbf4b9867c85 in local docker daemon
+I0122 23:44:52.775109    3364 preload.go:146] Found local preload: C:\Users\ACER\.minikube\cache\preloaded-tarball\preloaded-images-k8s-v18-v1.31.0-docker-overlay2-amd64.tar.lz4
+I0122 23:44:52.775181    3364 cache.go:56] Caching tarball of preloaded images
+I0122 23:44:52.775339    3364 preload.go:172] Found C:\Users\ACER\.minikube\cache\preloaded-tarball\preloaded-images-k8s-v18-v1.31.0-docker-overlay2-amd64.tar.lz4 in cache, skipping download
+I0122 23:44:52.775339    3364 cache.go:59] Finished verifying existence of preloaded tar for v1.31.0 on docker
+I0122 23:44:52.775898    3364 profile.go:143] Saving config to C:\Users\ACER\.minikube\profiles\minikube\config.json ...
+W0122 23:44:53.062015    3364 image.go:95] image gcr.io/k8s-minikube/kicbase:v0.0.45@sha256:81df288595202a317b1a4dc2506ca2e4ed5f22373c19a441b88cfbf4b9867c85 is of wrong architecture
+I0122 23:44:53.062015    3364 cache.go:149] Downloading gcr.io/k8s-minikube/kicbase:v0.0.45@sha256:81df288595202a317b1a4dc2506ca2e4ed5f22373c19a441b88cfbf4b9867c85 to local cache
+I0122 23:44:53.062643    3364 localpath.go:151] windows sanitize: C:\Users\ACER\.minikube\cache\kic\amd64\kicbase:v0.0.45@sha256:81df288595202a317b1a4dc2506ca2e4ed5f22373c19a441b88cfbf4b9867c85.tar -> C:\Users\ACER\.minikube\cache\kic\amd64\kicbase_v0.0.45@sha256_81df288595202a317b1a4dc2506ca2e4ed5f22373c19a441b88cfbf4b9867c85.tar
+I0122 23:44:53.063153    3364 localpath.go:151] windows sanitize: C:\Users\ACER\.minikube\cache\kic\amd64\kicbase:v0.0.45@sha256:81df288595202a317b1a4dc2506ca2e4ed5f22373c19a441b88cfbf4b9867c85.tar -> C:\Users\ACER\.minikube\cache\kic\amd64\kicbase_v0.0.45@sha256_81df288595202a317b1a4dc2506ca2e4ed5f22373c19a441b88cfbf4b9867c85.tar
+I0122 23:44:53.063153    3364 image.go:63] Checking for gcr.io/k8s-minikube/kicbase:v0.0.45@sha256:81df288595202a317b1a4dc2506ca2e4ed5f22373c19a441b88cfbf4b9867c85 in local cache directory
+I0122 23:44:53.063766    3364 image.go:66] Found gcr.io/k8s-minikube/kicbase:v0.0.45@sha256:81df288595202a317b1a4dc2506ca2e4ed5f22373c19a441b88cfbf4b9867c85 in local cache directory, skipping pull
+I0122 23:44:53.063766    3364 image.go:135] gcr.io/k8s-minikube/kicbase:v0.0.45@sha256:81df288595202a317b1a4dc2506ca2e4ed5f22373c19a441b88cfbf4b9867c85 exists in cache, skipping pull
+I0122 23:44:53.063766    3364 cache.go:152] successfully saved gcr.io/k8s-minikube/kicbase:v0.0.45@sha256:81df288595202a317b1a4dc2506ca2e4ed5f22373c19a441b88cfbf4b9867c85 as a tarball
+I0122 23:44:53.063766    3364 cache.go:162] Loading gcr.io/k8s-minikube/kicbase:v0.0.45@sha256:81df288595202a317b1a4dc2506ca2e4ed5f22373c19a441b88cfbf4b9867c85 from local cache
+I0122 23:44:53.064282    3364 localpath.go:151] windows sanitize: C:\Users\ACER\.minikube\cache\kic\amd64\kicbase:v0.0.45@sha256:81df288595202a317b1a4dc2506ca2e4ed5f22373c19a441b88cfbf4b9867c85.tar -> C:\Users\ACER\.minikube\cache\kic\amd64\kicbase_v0.0.45@sha256_81df288595202a317b1a4dc2506ca2e4ed5f22373c19a441b88cfbf4b9867c85.tar
+I0122 23:44:57.874185    3364 cache.go:164] successfully loaded and using gcr.io/k8s-minikube/kicbase:v0.0.45@sha256:81df288595202a317b1a4dc2506ca2e4ed5f22373c19a441b88cfbf4b9867c85 from cached tarball
+I0122 23:44:57.874185    3364 cache.go:194] Successfully downloaded all kic artifacts
+I0122 23:44:57.880577    3364 start.go:360] acquireMachinesLock for minikube: {Name:mk2264f0f4f131b178cd548607e7c3205ac7df1b Clock:{} Delay:500ms Timeout:10m0s Cancel:<nil>}
+I0122 23:44:57.880577    3364 start.go:364] duration metric: took 0s to acquireMachinesLock for "minikube"
+I0122 23:44:57.880577    3364 start.go:96] Skipping create...Using existing machine configuration
+I0122 23:44:57.887834    3364 fix.go:54] fixHost starting: 
+I0122 23:44:57.915281    3364 cli_runner.go:164] Run: docker container inspect minikube --format={{.State.Status}}
+I0122 23:44:57.992444    3364 fix.go:112] recreateIfNeeded on minikube: state=Running err=<nil>
+W0122 23:44:57.992444    3364 fix.go:138] unexpected machine state, will restart: <nil>
+I0122 23:44:57.994643    3364 out.go:177] 🏃  Updating the running docker "minikube" container ...
+I0122 23:44:57.995702    3364 machine.go:93] provisionDockerMachine start ...
+I0122 23:44:58.003774    3364 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+I0122 23:44:58.163620    3364 main.go:141] libmachine: Using SSH client type: native
+I0122 23:44:58.164133    3364 main.go:141] libmachine: <nil>
+I0122 23:44:58.164133    3364 ubuntu.go:169] provisioning hostname "minikube"
+I0122 23:44:58.171571    3364 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+I0122 23:44:58.262062    3364 main.go:141] libmachine: Using SSH client type: native
+I0122 23:44:58.262062    3364 main.go:141] libmachine: <nil>
+I0122 23:44:58.271683    3364 machine.go:96] duration metric: took 266.3598ms to provisionDockerMachine
+I0122 23:44:58.310644    3364 ssh_runner.go:195] Run: sh -c "df -h /var | awk 'NR==2{print $5}'"
+I0122 23:44:58.324715    3364 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+I0122 23:44:58.403797    3364 sshutil.go:53] new ssh client: &{IP:127.0.0.1 Port:52312 SSHKeyPath:C:\Users\ACER\.minikube\machines\minikube\id_rsa Username:docker}
+I0122 23:44:58.403797    3364 retry.go:31] will retry after 187.764014ms: new client: new client: Error creating new native config from ssh using: docker, &{[] [C:\Users\ACER\.minikube\machines\minikube\id_rsa]}: open C:\Users\ACER\.minikube\machines\minikube\id_rsa: Access is denied.
+I0122 23:44:58.618938    3364 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+I0122 23:44:58.721862    3364 sshutil.go:53] new ssh client: &{IP:127.0.0.1 Port:52312 SSHKeyPath:C:\Users\ACER\.minikube\machines\minikube\id_rsa Username:docker}
+I0122 23:44:58.722385    3364 retry.go:31] will retry after 234.925757ms: new client: new client: Error creating new native config from ssh using: docker, &{[] [C:\Users\ACER\.minikube\machines\minikube\id_rsa]}: open C:\Users\ACER\.minikube\machines\minikube\id_rsa: Access is denied.
+I0122 23:44:58.978414    3364 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+I0122 23:44:59.197067    3364 sshutil.go:53] new ssh client: &{IP:127.0.0.1 Port:52312 SSHKeyPath:C:\Users\ACER\.minikube\machines\minikube\id_rsa Username:docker}
+I0122 23:44:59.197590    3364 retry.go:31] will retry after 497.784739ms: new client: new client: Error creating new native config from ssh using: docker, &{[] [C:\Users\ACER\.minikube\machines\minikube\id_rsa]}: open C:\Users\ACER\.minikube\machines\minikube\id_rsa: Access is denied.
+I0122 23:44:59.723100    3364 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+I0122 23:44:59.919897    3364 sshutil.go:53] new ssh client: &{IP:127.0.0.1 Port:52312 SSHKeyPath:C:\Users\ACER\.minikube\machines\minikube\id_rsa Username:docker}
+W0122 23:44:59.920435    3364 start.go:268] error running df -h /var: NewSession: new client: new client: Error creating new native config from ssh using: docker, &{[] [C:\Users\ACER\.minikube\machines\minikube\id_rsa]}: open C:\Users\ACER\.minikube\machines\minikube\id_rsa: Access is denied.
+W0122 23:44:59.920435    3364 start.go:235] error getting percentage of /var that is free: NewSession: new client: new client: Error creating new native config from ssh using: docker, &{[] [C:\Users\ACER\.minikube\machines\minikube\id_rsa]}: open C:\Users\ACER\.minikube\machines\minikube\id_rsa: Access is denied.
+I0122 23:44:59.939593    3364 ssh_runner.go:195] Run: sh -c "df -BG /var | awk 'NR==2{print $4}'"
+I0122 23:44:59.946738    3364 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+I0122 23:45:00.067347    3364 sshutil.go:53] new ssh client: &{IP:127.0.0.1 Port:52312 SSHKeyPath:C:\Users\ACER\.minikube\machines\minikube\id_rsa Username:docker}
+I0122 23:45:00.067347    3364 retry.go:31] will retry after 125.72991ms: new client: new client: Error creating new native config from ssh using: docker, &{[] [C:\Users\ACER\.minikube\machines\minikube\id_rsa]}: open C:\Users\ACER\.minikube\machines\minikube\id_rsa: Access is denied.
+I0122 23:45:00.228942    3364 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+I0122 23:45:00.358165    3364 sshutil.go:53] new ssh client: &{IP:127.0.0.1 Port:52312 SSHKeyPath:C:\Users\ACER\.minikube\machines\minikube\id_rsa Username:docker}
+I0122 23:45:00.358685    3364 retry.go:31] will retry after 429.961935ms: new client: new client: Error creating new native config from ssh using: docker, &{[] [C:\Users\ACER\.minikube\machines\minikube\id_rsa]}: open C:\Users\ACER\.minikube\machines\minikube\id_rsa: Access is denied.
+I0122 23:45:00.809357    3364 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+I0122 23:45:00.954703    3364 sshutil.go:53] new ssh client: &{IP:127.0.0.1 Port:52312 SSHKeyPath:C:\Users\ACER\.minikube\machines\minikube\id_rsa Username:docker}
+I0122 23:45:00.954958    3364 retry.go:31] will retry after 401.70304ms: new client: new client: Error creating new native config from ssh using: docker, &{[] [C:\Users\ACER\.minikube\machines\minikube\id_rsa]}: open C:\Users\ACER\.minikube\machines\minikube\id_rsa: Access is denied.
+I0122 23:45:01.375916    3364 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+I0122 23:45:01.467848    3364 sshutil.go:53] new ssh client: &{IP:127.0.0.1 Port:52312 SSHKeyPath:C:\Users\ACER\.minikube\machines\minikube\id_rsa Username:docker}
+W0122 23:45:01.467848    3364 start.go:283] error running df -BG /var: NewSession: new client: new client: Error creating new native config from ssh using: docker, &{[] [C:\Users\ACER\.minikube\machines\minikube\id_rsa]}: open C:\Users\ACER\.minikube\machines\minikube\id_rsa: Access is denied.
+W0122 23:45:01.467848    3364 start.go:240] error getting GiB of /var that is available: NewSession: new client: new client: Error creating new native config from ssh using: docker, &{[] [C:\Users\ACER\.minikube\machines\minikube\id_rsa]}: open C:\Users\ACER\.minikube\machines\minikube\id_rsa: Access is denied.
+I0122 23:45:01.467848    3364 fix.go:56] duration metric: took 3.5872712s for fixHost
+I0122 23:45:01.467848    3364 start.go:83] releasing machines lock for "minikube", held for 3.5872712s
+W0122 23:45:01.471014    3364 start.go:714] error starting host: provision: Error getting config for native Go SSH: open C:\Users\ACER\.minikube\machines\minikube\id_rsa: Access is denied.
+W0122 23:45:01.471014    3364 out.go:270] 🤦  StartHost failed, but will try again: provision: Error getting config for native Go SSH: open C:\Users\ACER\.minikube\machines\minikube\id_rsa: Access is denied.
+I0122 23:45:01.471521    3364 start.go:729] Will try again in 5 seconds ...
+I0122 23:45:06.485233    3364 start.go:360] acquireMachinesLock for minikube: {Name:mk2264f0f4f131b178cd548607e7c3205ac7df1b Clock:{} Delay:500ms Timeout:10m0s Cancel:<nil>}
+I0122 23:45:06.485487    3364 start.go:364] duration metric: took 253.6µs to acquireMachinesLock for "minikube"
+I0122 23:45:06.485487    3364 start.go:96] Skipping create...Using existing machine configuration
+I0122 23:45:06.485487    3364 fix.go:54] fixHost starting: 
+I0122 23:45:06.514324    3364 cli_runner.go:164] Run: docker container inspect minikube --format={{.State.Status}}
+I0122 23:45:06.630801    3364 fix.go:112] recreateIfNeeded on minikube: state=Running err=<nil>
+W0122 23:45:06.631320    3364 fix.go:138] unexpected machine state, will restart: <nil>
+I0122 23:45:06.661039    3364 out.go:177] 🏃  Updating the running docker "minikube" container ...
+I0122 23:45:06.665413    3364 machine.go:93] provisionDockerMachine start ...
+I0122 23:45:06.708756    3364 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+I0122 23:45:06.866097    3364 main.go:141] libmachine: Using SSH client type: native
+I0122 23:45:06.866097    3364 main.go:141] libmachine: <nil>
+I0122 23:45:06.866097    3364 ubuntu.go:169] provisioning hostname "minikube"
+I0122 23:45:06.879902    3364 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+I0122 23:45:07.037634    3364 main.go:141] libmachine: Using SSH client type: native
+I0122 23:45:07.037634    3364 main.go:141] libmachine: <nil>
+I0122 23:45:07.037634    3364 machine.go:96] duration metric: took 372.2206ms to provisionDockerMachine
+I0122 23:45:07.075819    3364 ssh_runner.go:195] Run: sh -c "df -h /var | awk 'NR==2{print $5}'"
+I0122 23:45:07.089258    3364 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+I0122 23:45:07.241270    3364 sshutil.go:53] new ssh client: &{IP:127.0.0.1 Port:52312 SSHKeyPath:C:\Users\ACER\.minikube\machines\minikube\id_rsa Username:docker}
+I0122 23:45:07.241270    3364 retry.go:31] will retry after 239.6715ms: new client: new client: Error creating new native config from ssh using: docker, &{[] [C:\Users\ACER\.minikube\machines\minikube\id_rsa]}: open C:\Users\ACER\.minikube\machines\minikube\id_rsa: Access is denied.
+I0122 23:45:07.515819    3364 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+I0122 23:45:07.661444    3364 sshutil.go:53] new ssh client: &{IP:127.0.0.1 Port:52312 SSHKeyPath:C:\Users\ACER\.minikube\machines\minikube\id_rsa Username:docker}
+I0122 23:45:07.661966    3364 retry.go:31] will retry after 518.63071ms: new client: new client: Error creating new native config from ssh using: docker, &{[] [C:\Users\ACER\.minikube\machines\minikube\id_rsa]}: open C:\Users\ACER\.minikube\machines\minikube\id_rsa: Access is denied.
+I0122 23:45:08.220981    3364 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+I0122 23:45:08.357061    3364 sshutil.go:53] new ssh client: &{IP:127.0.0.1 Port:52312 SSHKeyPath:C:\Users\ACER\.minikube\machines\minikube\id_rsa Username:docker}
+I0122 23:45:08.357573    3364 retry.go:31] will retry after 712.318284ms: new client: new client: Error creating new native config from ssh using: docker, &{[] [C:\Users\ACER\.minikube\machines\minikube\id_rsa]}: open C:\Users\ACER\.minikube\machines\minikube\id_rsa: Access is denied.
+I0122 23:45:09.099832    3364 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+I0122 23:45:09.241374    3364 sshutil.go:53] new ssh client: &{IP:127.0.0.1 Port:52312 SSHKeyPath:C:\Users\ACER\.minikube\machines\minikube\id_rsa Username:docker}
+W0122 23:45:09.242096    3364 start.go:268] error running df -h /var: NewSession: new client: new client: Error creating new native config from ssh using: docker, &{[] [C:\Users\ACER\.minikube\machines\minikube\id_rsa]}: open C:\Users\ACER\.minikube\machines\minikube\id_rsa: Access is denied.
+W0122 23:45:09.242096    3364 start.go:235] error getting percentage of /var that is free: NewSession: new client: new client: Error creating new native config from ssh using: docker, &{[] [C:\Users\ACER\.minikube\machines\minikube\id_rsa]}: open C:\Users\ACER\.minikube\machines\minikube\id_rsa: Access is denied.
+I0122 23:45:09.275403    3364 ssh_runner.go:195] Run: sh -c "df -BG /var | awk 'NR==2{print $4}'"
+I0122 23:45:09.288939    3364 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+I0122 23:45:09.428981    3364 sshutil.go:53] new ssh client: &{IP:127.0.0.1 Port:52312 SSHKeyPath:C:\Users\ACER\.minikube\machines\minikube\id_rsa Username:docker}
+I0122 23:45:09.428981    3364 retry.go:31] will retry after 236.13507ms: new client: new client: Error creating new native config from ssh using: docker, &{[] [C:\Users\ACER\.minikube\machines\minikube\id_rsa]}: open C:\Users\ACER\.minikube\machines\minikube\id_rsa: Access is denied.
+I0122 23:45:09.687601    3364 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+I0122 23:45:09.827439    3364 sshutil.go:53] new ssh client: &{IP:127.0.0.1 Port:52312 SSHKeyPath:C:\Users\ACER\.minikube\machines\minikube\id_rsa Username:docker}
+I0122 23:45:09.828030    3364 retry.go:31] will retry after 459.404847ms: new client: new client: Error creating new native config from ssh using: docker, &{[] [C:\Users\ACER\.minikube\machines\minikube\id_rsa]}: open C:\Users\ACER\.minikube\machines\minikube\id_rsa: Access is denied.
+I0122 23:45:10.314326    3364 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+I0122 23:45:10.467810    3364 sshutil.go:53] new ssh client: &{IP:127.0.0.1 Port:52312 SSHKeyPath:C:\Users\ACER\.minikube\machines\minikube\id_rsa Username:docker}
+I0122 23:45:10.467810    3364 retry.go:31] will retry after 447.909072ms: new client: new client: Error creating new native config from ssh using: docker, &{[] [C:\Users\ACER\.minikube\machines\minikube\id_rsa]}: open C:\Users\ACER\.minikube\machines\minikube\id_rsa: Access is denied.
+I0122 23:45:10.933779    3364 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+I0122 23:45:11.078458    3364 sshutil.go:53] new ssh client: &{IP:127.0.0.1 Port:52312 SSHKeyPath:C:\Users\ACER\.minikube\machines\minikube\id_rsa Username:docker}
+W0122 23:45:11.078996    3364 start.go:283] error running df -BG /var: NewSession: new client: new client: Error creating new native config from ssh using: docker, &{[] [C:\Users\ACER\.minikube\machines\minikube\id_rsa]}: open C:\Users\ACER\.minikube\machines\minikube\id_rsa: Access is denied.
+W0122 23:45:11.078996    3364 start.go:240] error getting GiB of /var that is available: NewSession: new client: new client: Error creating new native config from ssh using: docker, &{[] [C:\Users\ACER\.minikube\machines\minikube\id_rsa]}: open C:\Users\ACER\.minikube\machines\minikube\id_rsa: Access is denied.
+I0122 23:45:11.078996    3364 fix.go:56] duration metric: took 4.5935094s for fixHost
+I0122 23:45:11.078996    3364 start.go:83] releasing machines lock for "minikube", held for 4.5935094s
+W0122 23:45:11.078996    3364 out.go:270] 😿  Failed to start docker container. Running "minikube delete" may fix it: provision: Error getting config for native Go SSH: open C:\Users\ACER\.minikube\machines\minikube\id_rsa: Access is denied.
+I0122 23:45:11.215689    3364 out.go:201] 
+W0122 23:45:11.487449    3364 out.go:270] ❌  Exiting due to GUEST_PROVISION: error provisioning guest: Failed to start host: provision: Error getting config for native Go SSH: open C:\Users\ACER\.minikube\machines\minikube\id_rsa: Access is denied.
+W0122 23:45:11.489269    3364 out.go:270] 
+W0122 23:45:11.513172    3364 out.go:293] [31m╭───────────────────────────────────────────────────────────────────────────────────────────╮[0m
+[31m│[0m                                                                                           [31m│[0m
+[31m│[0m    😿  If the above advice does not help, please let us know:                             [31m│[0m
+[31m│[0m    👉  https://github.com/kubernetes/minikube/issues/new/choose                           [31m│[0m
+[31m│[0m                                                                                           [31m│[0m
+[31m│[0m    Please run `minikube logs --file=logs.txt` and attach logs.txt to the GitHub issue.    [31m│[0m
+[31m│[0m                                                                                           [31m│[0m
+[31m╰───────────────────────────────────────────────────────────────────────────────────────────╯[0m
+I0122 23:45:11.651942    3364 out.go:201] 
+
+
+==> Docker <==
+command /bin/bash -c "sudo journalctl -u docker -u cri-docker -n 60" failed with error: NewSession: new client: new client: Error creating new native config from ssh using: docker, &{[] [C:\Users\ACER\.minikube\machines\minikube\id_rsa]}: open C:\Users\ACER\.minikube\machines\minikube\id_rsa: Access is denied.
+
+==> container status <==
+command /bin/bash -c "sudo `which crictl || echo crictl` ps -a || sudo docker ps -a" failed with error: NewSession: new client: new client: Error creating new native config from ssh using: docker, &{[] [C:\Users\ACER\.minikube\machines\minikube\id_rsa]}: open C:\Users\ACER\.minikube\machines\minikube\id_rsa: Access is denied.
+
+==> describe nodes <==
+command /bin/bash -c "sudo /var/lib/minikube/binaries/v1.31.0/kubectl describe nodes --kubeconfig=/var/lib/minikube/kubeconfig" failed with error: NewSession: new client: new client: Error creating new native config from ssh using: docker, &{[] [C:\Users\ACER\.minikube\machines\minikube\id_rsa]}: open C:\Users\ACER\.minikube\machines\minikube\id_rsa: Access is denied.
+
+==> dmesg <==
+command /bin/bash -c "sudo dmesg -PH -L=never --level warn,err,crit,alert,emerg | tail -n 60" failed with error: NewSession: new client: new client: Error creating new native config from ssh using: docker, &{[] [C:\Users\ACER\.minikube\machines\minikube\id_rsa]}: open C:\Users\ACER\.minikube\machines\minikube\id_rsa: Access is denied.
+
+==> kernel <==
+command /bin/bash -c "uptime && uname -a && grep PRETTY /etc/os-release" failed with error: NewSession: new client: new client: Error creating new native config from ssh using: docker, &{[] [C:\Users\ACER\.minikube\machines\minikube\id_rsa]}: open C:\Users\ACER\.minikube\machines\minikube\id_rsa: Access is denied.
+
+==> kubelet <==
+command /bin/bash -c "sudo journalctl -u kubelet -n 60" failed with error: NewSession: new client: new client: Error creating new native config from ssh using: docker, &{[] [C:\Users\ACER\.minikube\machines\minikube\id_rsa]}: open C:\Users\ACER\.minikube\machines\minikube\id_rsa: Access is denied.
